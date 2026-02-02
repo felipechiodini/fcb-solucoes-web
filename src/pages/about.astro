@@ -1,0 +1,33 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Values from '../components/Values.astro';
+---
+
+<PageLayout
+	title="Sobre o estúdio"
+	description="Formamos produto, marca e código para equipes orientadas por missão."
+	eyebrow="Estúdio"
+>
+	<section class="content-shell py-12 space-y-8"> 
+		<div class="space-y-3 max-w-3xl">
+			<p class="m-0 text-ink text-2xl font-semibold leading-tight">Somos um estúdio compacto e sênior que combina pesquisa, design e engenharia para enviar produtos resilientes.</p>
+			<p class="m-0 text-muted">Ficamos próximos às pessoas que usam o que construímos: entrevistas rápidas, notas assíncronas e lançamentos instrumentados. As decisões permanecem rastreáveis para que as equipes saibam por que algo foi enviado, não apenas o que foi enviado.</p>
+			<p class="m-0 text-muted">Quando nos incorporamos aos clientes, trazemos nossa própria disciplina de entrega—briefs fortes, marcos definidos e demos que mantêm os stakeholders alinhados. O objetivo: menos surpresas, aprendizado mais rápido.</p>
+		</div>
+	</section>
+
+	<div class="mt-12 md:mt-16">
+		<Values
+			useShell={false}
+			eyebrow="Valores"
+			title="Como nos apresentamos"
+			copy="Princípios que mantemos em primeiro plano para que cada projeto seja enviado com a mesma intenção e artesanato."
+			values={[
+				{ title: 'Clareza sobre o ruído', description: 'Escrevemos, projetamos e codificamos para serem entendidos rapidamente por equipes e clientes.' },
+				{ title: 'Viés para envio', description: 'Preferimos lançamentos pequenos e validados a apostas longas que nunca chegam aos usuários.' },
+				{ title: 'Artesanato com pragmatismo', description: 'A qualidade importa mais quando serve ao resultado—polimento encontra propósito.' },
+				{ title: 'Mentalidade de parceria', description: 'Nos comportamos como colegas de equipe incorporados, não vendedores: transparentes, responsivos, confiáveis.' },
+			]}
+		/>
+	</div>
+</PageLayout>

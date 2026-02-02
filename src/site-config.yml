@@ -1,0 +1,6 @@
+site:
+  title: "FCB Software"
+  description: "Um scaffolding moderno Astro para agências e estúdios."
+  based: "São Paulo"
+  timezone: "America/Sao_Paulo"
+  locale: "pt-BR"

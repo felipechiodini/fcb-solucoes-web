@@ -1,0 +1,27 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { withBase } from '../utils/slugify';
+---
+
+<PageLayout title="Página não encontrada" description="A página que você está procurando não existe.">
+  <section class="content-shell py-12 md:py-16">
+    <div class="relative card overflow-hidden min-h-[80vh] w-full max-w-3xl mx-auto grid place-content-center gap-8 px-6 sm:px-10 py-14 md:py-16">
+      <div class="max-w-3xl mx-auto flex flex-col pt-10 items-center gap-6">
+        <div class="relative mx-auto flex flex-wrap items-center justify-center gap-3 text-sm font-semibold text-muted">
+          <span class="inline-flex items-center gap-2 rounded-full border border-[color-mix(in_ oklab,_var(--color-ink)_16%,_transparent)] bg-[color-mix(in_ oklab,_var(--color-surface)_92%,_transparent)] px-3 py-1 uppercase tracking-[0.2em]">404</span>
+          <span class="text-muted">Perdido na grade</span>
+        </div>
+
+        <div class="relative mx-auto max-w-3xl space-y-5 text-center">
+          <h1 class="m-0 text-3xl sm:text-4xl font-semibold leading-tight text-ink">Não conseguimos encontrar essa página.</h1>
+          <p class="m-0 text-muted max-w-2xl mx-auto">O link pode estar quebrado ou a página pode ter sido movida. Escolha uma rota abaixo para continuar.</p>
+        </div>
+
+        <div class="relative flex flex-wrap justify-center gap-4 pt-2">
+          <a class="button primary" href={withBase('/')}>Voltar ao início</a>
+          <a class="button secondary" href={withBase('/blog')}>Ver o blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

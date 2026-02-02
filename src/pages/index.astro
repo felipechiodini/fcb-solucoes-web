@@ -1,0 +1,54 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/Hero.astro';
+import PostList from '../components/PostList.astro';
+import Numbers from '../components/Numbers.astro';
+import Values from '../components/Values.astro';
+import { getSite } from '../utils/consts';
+const site = await getSite();
+---
+
+<PageLayout
+	title={site.title}
+>
+	<Hero
+		eyebrow="Um Blueprint Astro"
+		title="Um scaffolding moderno Astro para agências e estúdios."
+		description="Dê início ao seu próximo projeto com uma base sólida, apresentando um blog, vitrines de projetos e suporte a modo escuro."
+		actions={[
+			{ label: 'Ver Blog', href: '/blog' },
+			{ label: 'Obter Cotação', href: '/contact' },
+		]}
+	/>
+
+	<Numbers
+		eyebrow="Resultados"
+		title="Entregamos consistentemente"
+		copy="Uma pilha de design e código pronta para enviar produtos sem comprometer a qualidade."
+		stats={[
+			{ label: 'Projetos enviados', value: '48', description: 'Da descoberta ao envio sem drama.' },
+			{ label: 'Tempo médio de lead', value: '6 semanas', description: 'Equipes pequenas, ciclos curtos.' },
+			{ label: 'NPS do cliente', value: '72', description: 'Relacionamentos de longo prazo.' },
+			{ label: 'Tempo de resposta', value: '<24h', description: 'Slack, email ou chamada.' },
+		]}
+	/>
+
+	<Values
+		eyebrow="Valores"
+		title="Como nos apresentamos"
+		copy="Princípios que mantemos em primeiro plano para que cada projeto seja enviado com a mesma intenção e artesanato."
+		values={[
+			{ title: 'Clareza sobre o ruído', description: 'Escrevemos, projetamos e codificamos para serem entendidos rapidamente por equipes e clientes.' },
+			{ title: 'Viés para envio', description: 'Preferimos lançamentos pequenos e validados a apostas longas que nunca chegam aos usuários.' },
+			{ title: 'Artesanato com pragmatismo', description: 'A qualidade importa mais quando serve ao resultado—polimento encontra propósito.' },
+			{ title: 'Mentalidade de parceria', description: 'Nos comportamos como colegas de equipe incorporados, não vendedores: transparentes, responsivos, confiáveis.' },
+		]}
+	/>
+
+	<PostList
+		heading="Blog"
+		limit={3}
+		viewAllHref="/blog"
+	/>
+		
+</PageLayout>
