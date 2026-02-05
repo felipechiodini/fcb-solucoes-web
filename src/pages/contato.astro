@@ -1,0 +1,42 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+
+const WEB3FORMS_KEY = '5d237d4d-56c5-48ac-97c3-79c1ffa078e6'
+---
+
+<PageLayout
+	title="Sobre nós"
+	description="Formamos produto, marca e código para equipes orientadas por missão."
+	eyebrow="Estúdio"
+>
+    <section class="content-shell py-12 space-y-8">
+        <div class="bg-[color:var(--color-surface)] rounded border px-8 border-[color:var(--color-border)] py-8">
+            <h6>Envie-nos uma mensagem</h6>
+            <form class="flex flex-col gap-5" action="https://api.web3forms.com/submit" method="POST">
+                <!-- Chave de acesso do Web3Forms -->
+                <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+                <!-- Opcional: assunto do email -->
+                <input type="hidden" name="subject" value="Novo contato pelo site" />
+                <!-- Opcional: redirecionamento após envio -->
+                <input type="hidden" name="redirect" value="https://seusite.com/obrigado" />
+
+                <div class="grid gap-2">
+                    <label>Nome:</label>
+                    <input class="w-full border p-3 rounded" type="text" name="name" required />
+                </div>
+
+                <div>
+                    <label>Email:</label>
+                    <input class="w-full border border-[color:var(--color-border)] py-1 px-2 rounded" type="email" name="email" required />
+                </div>
+                <div>
+                    <label>Mensagem:</label>
+                    <textarea name="message" rows="5" required></textarea>
+                </div>
+                <!-- Proteção anti-spam simples -->
+                <input type="checkbox" name="botcheck" style="display: none;" />
+                <button class="button primary w-full" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</PageLayout>
