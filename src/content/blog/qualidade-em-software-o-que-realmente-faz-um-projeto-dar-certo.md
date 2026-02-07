@@ -1,7 +1,6 @@
 ---
 title: "Qualidade em Software: O Que Realmente Faz um Projeto Dar Certo?"
 canonical: "https://www.fcbsolucoesweb.com.br/blog/qualidade-em-software-o-que-realmente-faz-um-projeto-dar-certo"
-title: Qualidade em Software O Que Realmente Faz um Projeto Dar Certo?
 description: Quando uma empresa investe em software, ela não está comprando apenas linhas de código.
 pubDate: 2026-03-23
 updatedDate: 2026-03-32
