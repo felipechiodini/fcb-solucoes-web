@@ -2,7 +2,7 @@
 title: Clay Astro Theme
 description: Clay Astro Theme é um tema minimalista e de alto desempenho construído com o framework Astro, ideal para portfólios de fotografias, artistas e criadores que desejam exibir seu trabalho com foco em velocidade e simplicidade.
 pubDate: 2025-08-18
-heroImage: ../../assets/projetcs/clay-astro-theme.webp
+heroImage: ../../assets/projects/clay-astro-theme.webp
 updatedDate: 2025-08-18
 ---
 

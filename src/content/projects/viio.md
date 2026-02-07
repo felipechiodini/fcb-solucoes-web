@@ -2,7 +2,7 @@
 title: Viio
 description: VIIO é uma plataforma online projetada para ajudar equipes — de criadores a startups e empresas — a planejar, gerenciar e entregar projetos de forma mais rápida e eficiente, centralizando comunicação, tarefas e processos em um só lugar.
 pubDate: 2024-03-10
-heroImage: ../../assets/projetcs/viio.webp
+heroImage: ../../assets/projects/viio.webp
 updatedDate: 2024-03-10
 ---
 

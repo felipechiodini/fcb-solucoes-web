@@ -2,7 +2,7 @@
 title: Purrfectly Zen
 description: Purrfectly Zen é um site dedicado a ajudar pessoas a encontrar calma e presença interior com inspiração no comportamento dos gatos, oferecendo técnicas de meditação, práticas de bem-estar e uma comunidade acolhedora focada em paz mental.
 pubDate: 2024-07-11
-heroImage: ../../assets/projetcs/purrfectly-zen.webp
+heroImage: ../../assets/projects/purrfectly-zen.webp
 updatedDate: 2024-07-11
 ---
 
