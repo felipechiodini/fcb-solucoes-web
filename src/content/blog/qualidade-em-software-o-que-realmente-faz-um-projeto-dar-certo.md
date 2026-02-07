@@ -1,8 +1,8 @@
 ---
 title: Qualidade em Software O Que Realmente Faz um Projeto Dar Certo?
 description: Quando uma empresa investe em software, ela não está comprando apenas linhas de código.
-pubDate: 2026-02-06
-updatedDate: 2026-02-06
+pubDate: 2026-03-23
+updatedDate: 2026-03-32
 heroImage: ../../assets/blog_post-2.png
 author: felipe
 tags:

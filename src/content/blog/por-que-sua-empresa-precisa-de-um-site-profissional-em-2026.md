@@ -1,8 +1,8 @@
 ---
 title: Por que sua empresa precisa de um site profissional em 2026
 description: Em um mundo cada vez mais digital, ter presença online deixou de ser um diferencial e se tornou uma necessidade. Em 2026, o site da sua empresa é, muitas vezes, o primeiro contato que o cliente tem com a sua marca. E essa primeira impressão faz toda a diferença.
-pubDate: 2026-02-06
-updatedDate: 2026-02-06
+pubDate: 2026-01-06
+updatedDate: 2026-01-06
 heroImage: ../../assets/blog-placeholder.png
 author: felipe
 tags:
