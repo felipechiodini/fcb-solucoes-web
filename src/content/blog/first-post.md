@@ -6,8 +6,9 @@ updatedDate: 2026-02-06
 heroImage: ../../assets/blog-placeholder.png
 author: felipe
 tags:
-  - presença
-  - site
+  - Internet
+  - Web Site
+  - Empresa
 ---
 
 # Por que sua empresa precisa de um site profissional em 2026

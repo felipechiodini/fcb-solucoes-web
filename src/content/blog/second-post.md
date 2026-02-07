@@ -1,21 +1,67 @@
 ---
-title: Segundo post
-description: Lorem ipsum dolor sit amet
-pubDate: 2026-01-15
-updatedDate: 2026-01-15
-heroImage: ../../assets/blog-placeholder-4.png
-author: rodrigo
+title: Qualidade em Software O Que Realmente Faz um Projeto Dar Certo?
+description: Quando uma empresa investe em software, ela não está comprando apenas linhas de código.
+pubDate: 2026-02-06
+updatedDate: 2026-02-06
+heroImage: ../../assets/blog_post-2.png
+author: felipe
 tags:
-  - astro
-  - guias
+  - Software
+  - Programação
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+# Qualidade em Software: O Que Realmente Faz um Projeto Dar Certo?
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Quando uma empresa investe em software, ela não está comprando apenas linhas de código. Está investindo em **segurança, estabilidade, desempenho e, principalmente, tranquilidade**. É aí que entra a verdadeira qualidade em software.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Mas afinal, o que significa “qualidade” na prática?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+## Qualidade não é só funcionar
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Um sistema de qualidade não é apenas aquele que “abre e roda”. Ele precisa:
+
+- Ser **confiável** (não cair quando você mais precisa)
+- Ser **rápido e eficiente**
+- Ser **seguro** contra falhas e ataques
+- Ser **fácil de manter e evoluir**
+- Ser **pensado para crescer junto com o seu negócio**
+
+Em outras palavras: qualidade é o que separa um software que dá lucro de um software que vira dor de cabeça.
+
+## Nosso processo: qualidade desde o primeiro dia
+
+Aqui na nossa empresa, a qualidade não é uma etapa final — ela faz parte de **todo o processo**:
+
+1. **Planejamento bem feito**  
+   Antes de escrever qualquer código, entendemos o negócio, os objetivos e os riscos do projeto.
+
+2. **Arquitetura sólida**  
+   Estruturamos o sistema para ser organizado, escalável e fácil de manter no futuro.
+
+3. **Código limpo e padronizado**  
+   Código bem escrito reduz bugs, facilita melhorias e diminui custos de manutenção.
+
+4. **Testes e validações**  
+   Testamos para garantir que tudo funcione como esperado — e continue funcionando após atualizações.
+
+5. **Entrega com responsabilidade**  
+   Publicar um sistema não é o fim, é o começo. Pensamos em monitoramento, evolução e estabilidade contínua.
+
+## O resultado para o seu negócio
+
+Quando você investe em qualidade, você ganha:
+
+- ✅ Menos falhas e menos paradas no sistema  
+- ✅ Menos custos com retrabalho e correções emergenciais  
+- ✅ Mais segurança para seus dados e dos seus clientes  
+- ✅ Mais velocidade para evoluir o produto  
+- ✅ Mais confiança para escalar o negócio  
+
+No fim das contas, **qualidade em software é economia de tempo e dinheiro no médio e longo prazo**.
+
+## Software é ativo estratégico, não despesa
+
+Empresas que tratam software como algo “feito às pressas” normalmente pagam o preço depois. Já empresas que investem em qualidade constroem **produtos mais estáveis, processos mais eficientes e experiências melhores para seus clientes**.
+
+É exatamente isso que buscamos em cada projeto:  
+**entregar sistemas que não apenas funcionem, mas que sustentem o crescimento do seu negócio.**
